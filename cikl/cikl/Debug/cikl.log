@@ -1,0 +1,193 @@
+﻿Построение начато 07.12.2015 10:51:41.
+     1>Проект "C:\Users\Михаил\Documents\Visual Studio 2010\Projects\cikl\cikl\cikl.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\3.unsuccessfulbuild".
+       GenerateTargetFrameworkMonikerAttribute:
+       Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\3.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt cikl.cpp /clr:nostdlib 
+         cikl.cpp
+     1>cikl.cpp(15): warning C4390: ";": обнаружен пустой контролируемый оператор; это правильно?
+     1>cikl.cpp(20): warning C4390: ";": обнаружен пустой контролируемый оператор; это правильно?
+     1>cikl.cpp(24): warning C4390: ";": обнаружен пустой контролируемый оператор; это правильно?
+     1>cikl.cpp(29): warning C4390: ";": обнаружен пустой контролируемый оператор; это правильно?
+     1>cikl.cpp(32): error C2065: e: необъявленный идентификатор
+     1>cikl.cpp(33): warning C4258: i: определение из цикла for игнорируется; используется определение из внешней области видимости
+                 cikl.cpp(31): пропуск определения "i"
+                 cikl.cpp(22): используется определение "i"
+     1>cikl.cpp(33): error C2678: бинарный ">>": не найден оператор, принимающий левый операнд типа "std::basic_istream<_Elem,_Traits>" (или приемлемое преобразование отсутствует)
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(1053): может быть "std::basic_istream<_Elem,_Traits> &std::operator >><std::char_traits<char>>(std::basic_istream<_Elem,_Traits> &&,signed char *)"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(1060): или       "std::basic_istream<_Elem,_Traits> &std::operator >><std::char_traits<char>>(std::basic_istream<_Elem,_Traits> &&,signed char &)"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(1067): или       "std::basic_istream<_Elem,_Traits> &std::operator >><std::char_traits<char>>(std::basic_istream<_Elem,_Traits> &&,unsigned char *)"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(1074): или       "std::basic_istream<_Elem,_Traits> &std::operator >><std::char_traits<char>>(std::basic_istream<_Elem,_Traits> &&,unsigned char &)"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(1097): или       "std::basic_istream<_Elem,_Traits> &std::operator >><std::char_traits<char>>(std::basic_istream<_Elem,_Traits> &,signed char *)"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(1104): или       "std::basic_istream<_Elem,_Traits> &std::operator >><std::char_traits<char>>(std::basic_istream<_Elem,_Traits> &,signed char &)"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(1111): или       "std::basic_istream<_Elem,_Traits> &std::operator >><std::char_traits<char>>(std::basic_istream<_Elem,_Traits> &,unsigned char *)"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(1118): или       "std::basic_istream<_Elem,_Traits> &std::operator >><std::char_traits<char>>(std::basic_istream<_Elem,_Traits> &,unsigned char &)"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(1128): или       "std::basic_istream<_Elem,_Traits> &std::operator >><char,std::char_traits<char>,const char[2]>(std::basic_istream<_Elem,_Traits> &&,_Ty (&))"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>,
+                     _Ty=const char [2]
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(179): или       "std::basic_istream<_Elem,_Traits> &std::basic_istream<_Elem,_Traits>::operator >>(std::basic_istream<_Elem,_Traits> &(__cdecl *)(std::basic_istream<_Elem,_Traits> &))"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(185): или       "std::basic_istream<_Elem,_Traits> &std::basic_istream<_Elem,_Traits>::operator >>(std::basic_ios<_Elem,_Traits> &(__cdecl *)(std::basic_ios<_Elem,_Traits> &))"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(192): или       "std::basic_istream<_Elem,_Traits> &std::basic_istream<_Elem,_Traits>::operator >>(std::ios_base &(__cdecl *)(std::ios_base &))"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(199): или       "std::basic_istream<_Elem,_Traits> &std::basic_istream<_Elem,_Traits>::operator >>(std::_Bool &)"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(218): или       "std::basic_istream<_Elem,_Traits> &std::basic_istream<_Elem,_Traits>::operator >>(short &)"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(253): или       "std::basic_istream<_Elem,_Traits> &std::basic_istream<_Elem,_Traits>::operator >>(unsigned short &)"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(272): или       "std::basic_istream<_Elem,_Traits> &std::basic_istream<_Elem,_Traits>::operator >>(int &)"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(298): или       "std::basic_istream<_Elem,_Traits> &std::basic_istream<_Elem,_Traits>::operator >>(unsigned int &)"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(316): или       "std::basic_istream<_Elem,_Traits> &std::basic_istream<_Elem,_Traits>::operator >>(long &)"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(334): или       "std::basic_istream<_Elem,_Traits> &std::basic_istream<_Elem,_Traits>::operator >>(unsigned long &)"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(354): или       "std::basic_istream<_Elem,_Traits> &std::basic_istream<_Elem,_Traits>::operator >>(__int64 &)"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(373): или       "std::basic_istream<_Elem,_Traits> &std::basic_istream<_Elem,_Traits>::operator >>(unsigned __int64 &)"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(392): или       "std::basic_istream<_Elem,_Traits> &std::basic_istream<_Elem,_Traits>::operator >>(float &)"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(411): или       "std::basic_istream<_Elem,_Traits> &std::basic_istream<_Elem,_Traits>::operator >>(double &)"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(429): или       "std::basic_istream<_Elem,_Traits> &std::basic_istream<_Elem,_Traits>::operator >>(long double &)"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(447): или       "std::basic_istream<_Elem,_Traits> &std::basic_istream<_Elem,_Traits>::operator >>(void *&)"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\istream(466): или       "std::basic_istream<_Elem,_Traits> &std::basic_istream<_Elem,_Traits>::operator >>(std::basic_streambuf<_Elem,_Traits> *)"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+                 при попытке сопоставить список аргументов "(std::basic_istream<_Elem,_Traits>, const char [2])"
+                 with
+                 [
+                     _Elem=char,
+                     _Traits=std::char_traits<char>
+                 ]
+     1>cikl.cpp(34): warning C4551: в вызове функции отсутствует список аргументов
+     1>Построение проекта "C:\Users\Михаил\Documents\Visual Studio 2010\Projects\cikl\cikl\cikl.vcxproj" завершено (целевые объекты build) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:00.88

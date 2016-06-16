@@ -1,0 +1,38 @@
+﻿Построение начато 29.02.2016 13:53:13.
+     1>Проект "C:\Users\Михаил\Documents\Visual Studio 2010\Projects\char1(skobki)\char1(skobki)\char1(skobki).vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\char1(skobki).unsuccessfulbuild", так как было задано "AlwaysCreate".
+       GenerateTargetFrameworkMonikerAttribute:
+       Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\char1(skobki).pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt "char1(skobki).cpp" /clr:nostdlib 
+         char1(skobki).cpp
+     1>char1(skobki).cpp(3): warning C4627: #include <iostream>: пропущен при поиске использования предкомпилированного заголовка
+                 Добавление директивы в "StdAfx.h" или перестройка предкомпилированного заголовка
+     1>char1(skobki).cpp(4): warning C4627: #include <string>: пропущен при поиске использования предкомпилированного заголовка
+                 Добавление директивы в "StdAfx.h" или перестройка предкомпилированного заголовка
+     1>char1(skobki).cpp(13): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(304): см. объявление "scanf"
+     1>char1(skobki).cpp(27): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 C:\Program Files\Microsoft Visual Studio 10.0\VC\include\conio.h(128): см. объявление "getch"
+         Для всех выходных данных обновления не требуется.
+       ResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Михаил\Documents\Visual Studio 2010\Projects\char1(skobki)\Debug\char1(skobki).exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\char1(skobki).exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Михаил\Documents\Visual Studio 2010\Projects\char1(skobki)\Debug\char1(skobki).pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         "Debug\char1(skobki).obj"
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         char1(skobki).vcxproj -> C:\Users\Михаил\Documents\Visual Studio 2010\Projects\char1(skobki)\Debug\char1(skobki).exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Михаил\Documents\Visual Studio 2010\Projects\char1(skobki)\Debug\char1(skobki).exe;#1" /manifest "Debug\char1(skobki).exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Файл "Debug\char1(skobki).unsuccessfulbuild" удаляется.
+         Обращение к "Debug\char1(skobki).lastbuildstate".
+     1>Построение проекта "C:\Users\Михаил\Documents\Visual Studio 2010\Projects\char1(skobki)\char1(skobki)\char1(skobki).vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.59

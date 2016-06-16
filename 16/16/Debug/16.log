@@ -1,0 +1,31 @@
+﻿Построение начато 25.04.2016 9:09:59.
+     1>Проект "c:\Users\Михаил\documents\visual studio 2010\Projects\16\16\16.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\16.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       GenerateTargetFrameworkMonikerAttribute:
+       Целевой объект "GenerateTargetFrameworkMonikerAttribute" пропускается, так как все выходные файлы актуальны по отношению к входным.
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\16.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt 16.cpp /clr:nostdlib 
+         16.cpp
+     1>16.cpp(18): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         Для всех выходных данных обновления не требуется.
+       ResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\михаил\documents\visual studio 2010\Projects\16\Debug\16.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\16.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\михаил\documents\visual studio 2010\Projects\16\Debug\16.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\16.obj
+         Debug\AssemblyInfo.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         16.vcxproj -> c:\users\михаил\documents\visual studio 2010\Projects\16\Debug\16.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\михаил\documents\visual studio 2010\Projects\16\Debug\16.exe;#1" /manifest Debug\16.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\16.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\16.lastbuildstate".
+     1>Построение проекта "c:\Users\Михаил\documents\visual studio 2010\Projects\16\16\16.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:02.19
